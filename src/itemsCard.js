@@ -7,7 +7,7 @@ function ItemsCard(props) {
                 <img src={props.img} class="card-img-top img-fluid"/>
                 <div class="card-body text-center">
                     <h5 class="card-title">{props.title}</h5>
-                    <h5 class="card-text">{props.price}</h5>
+                    <h5 class="card-text"> Ksh. {props.price}</h5>
                     <p class="card-text">{props.desc}</p>
                     <button class='btn btn-success'>Buy Now</button>
                     <button class='btn btn-success'>Add to Cart</button>
