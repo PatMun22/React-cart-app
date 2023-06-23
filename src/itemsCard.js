@@ -1,6 +1,9 @@
 import React from "react";
+import { useCart } from './react-use-cart';
 
 function ItemsCard(props) {
+    const { addItem } = useCart();
+
     return(
         <div class="col-11 col-md-6 col-lg-3 mx-0 mb-4">
             <div class="card p-0 overflow-hidden h-100 shaddow">
