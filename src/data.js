@@ -63,7 +63,7 @@ const data = {
         {
             id: 8,
             img: img8,
-            title: 'Peas',
+            title: 'Fresh Tomato',
             desc: '',
             price: 150 
         },
