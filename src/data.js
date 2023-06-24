@@ -8,6 +8,8 @@ import img7 from './img/img7.PNG';
 import img8 from './img/img8.PNG';
 import img9 from './img/img9.PNG';
 import img10 from './img/img10.PNG';
+import img11 from './img/img11.PNG';
+import img12 from './img/img12.PNG';
 
 const data = {
     productData: [
@@ -80,6 +82,20 @@ const data = {
             title: 'Wambugu Apple',
             desc: '',
             price: 150
+        },
+        {
+            id: 11,
+            img: img11,
+            title: 'Honey Belle Pears',
+            desc: '',
+            price: 120
+        },
+        {
+            id: 12,
+            img: img12,
+            title: '',
+            desc: '',
+            price: 170
         }
     ],
 }
